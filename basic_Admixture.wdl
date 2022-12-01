@@ -36,6 +36,7 @@ task Admixture_t {
     File fam
     Int n_ancestral_populations
     Boolean cv = false
+    Boolean supervised = false
     Int mem = 16
     Int n_cpus = 4
   }
@@ -45,7 +46,7 @@ task Admixture_t {
 
   command <<<
 
-    /admixture_linux-1.3.0/admixture ~{if (cv) then "--cv" else ""} ~{bed} ~{n_ancestral_populations} -j~{n_cpus}
+    /admixture_linux-1.3.0/admixture ~{if (cv) then "--cv" else ""} ~{if (supervised) then "--supervised" else ""} ~{bed} ~{n_ancestral_populations} -j~{n_cpus}
   >>>
 
   runtime {
