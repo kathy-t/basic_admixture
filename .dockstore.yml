@@ -4,7 +4,7 @@ workflows:
     name: projected_admixture
     primaryDescriptorPath: projected_admixture.wdl
     authors: 
-      - orcid: 0000-00020-7989-5420
+      - orcid: 0000-0002-7989-5420
     # testParameterFiles:
     #   - /projected_admixture.wdl
     #  - subclass: WDL
