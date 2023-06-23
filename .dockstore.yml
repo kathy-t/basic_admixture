@@ -6,7 +6,7 @@ workflows:
     authors: 
       - orcid: 0000-0002-7989-5420
     testParameterFiles:
-       - /projected_admixture.wdl
+       - /projected_admixture.json
     #  - subclass: WDL
     #    name: basic_Admixture
     #    primaryDescriptorPath: /basic_Admixture.wdl
