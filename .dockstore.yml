@@ -1,6 +1,6 @@
 version: 1.2
 workflows:
-- subclass: WDL
+  - subclass: WDL
     name: projected_admixture
     primaryDescriptorPath: /projected_admixture.wdl
     authors: 
