@@ -111,7 +111,7 @@ task run_admixture_projected {
 	}
 }
 
-workflow make_admixReady_projection_admixture_workflow {
+workflow projected_admixture {
 	input{
 		File P
 		File ref_bim

@@ -1,6 +1,6 @@
 version 1.0
 
-workflow Admixture {
+workflow basic_admixture {
   input {
     File bed
     File bim
