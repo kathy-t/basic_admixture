@@ -5,5 +5,5 @@
   "make_admixReady_projection_admixture_workflow.bim": "gs://fc-077a4a13-7468-47d9-9c9c-7ec0559d1402/testing/projected_admixture_files/test.bim",
   "make_admixReady_projection_admixture_workflow.fam": "gs://fc-077a4a13-7468-47d9-9c9c-7ec0559d1402/testing/projected_admixture_files/test.fam",
   "make_admixReady_projection_admixture_workflow.seed": 42,
-  "make_admixReady_projection_admixture_workflow.cv"=false
+  "make_admixReady_projection_admixture_workflow.cv": false
 }
