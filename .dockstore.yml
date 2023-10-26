@@ -2,13 +2,13 @@ version: 1.2
 workflows:
   - name: projected_admixture
     subclass: WDL
-    primaryDescriptorPath: projected_admixture.wdl
+    primaryDescriptorPath: /projected_admixture.wdl
     authors: 
       - orcid: 0000-0002-7989-5420
     testParameterFiles:
        - /projected_admixture.json
   - name: basic_admixture
     subclass: WDL
-    primaryDescriptorPath: basic_Admixture.wdl
+    primaryDescriptorPath: /basic_Admixture.wdl
     authors:
       - orcid: 0000-0002-7980-5420
